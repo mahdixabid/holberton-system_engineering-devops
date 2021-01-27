@@ -1,1 +1,2 @@
-mv betty
+#!/bin/bash
+rm betty
