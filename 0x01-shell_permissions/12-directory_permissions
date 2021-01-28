@@ -1,0 +1,2 @@
+#!/bin/bash
+mkdir dir_holberton; chmod 777 dir_holberton
