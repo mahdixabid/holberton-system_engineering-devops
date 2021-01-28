@@ -1,3 +1,2 @@
-$ wc -l file
 #!/bin/bash
 su betty
