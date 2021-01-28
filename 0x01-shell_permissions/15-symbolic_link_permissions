@@ -1,2 +1,2 @@
 #!/bin/bash
-show betty ln -s ._hello:holberton
+show betty ._hello:holberton
