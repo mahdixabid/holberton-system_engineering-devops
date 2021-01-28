@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty hello if [o:guillaume]
+chown betty hello if [o=guillaume]
