@@ -1,4 +1,4 @@
 #!/bin/bash
-usermod -u betty
+su betty
 
 
