@@ -1,2 +1,1 @@
-# holberton-system_engineering-devops
-Shell, basics
+#holberton-system_engineering-devops
