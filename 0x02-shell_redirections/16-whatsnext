@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head -10
+grep -A3 root /etc/passwd
