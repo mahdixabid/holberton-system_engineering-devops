@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-# print text to stdout 10 times
-
+#  This script displays "Holberton School" 10 times with foor loop
 for _ in {1..10}
 do
-    echo "codingschool School"
+    echo "Holberton School"
 done
