@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#  This script displays "Holberton School" 8 times and good luck , bad luck one time 
+x=0
+while [ $x -le 9 ]
+do
+    if [ $x == 3 ]
+    then
+        echo 'bad luck'
+    elif [ $x == 7 ]
+    then
+        echo 'good luck'
+    else
+        echo 'Holberton School'
+    fi
+    ((x++))
+done
