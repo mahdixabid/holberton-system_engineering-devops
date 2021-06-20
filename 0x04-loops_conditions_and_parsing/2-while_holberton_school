@@ -3,6 +3,6 @@
 
 i=0
 while [ $i -lt 10 ]; do
-    echo "Holberton School"
-    let "i++"
+	echo "Holberton School"
+	let "i++"
 done
