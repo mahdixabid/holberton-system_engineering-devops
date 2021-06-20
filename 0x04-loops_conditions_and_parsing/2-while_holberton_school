@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# while loop to display string 10 times
+#  This script displays "Holberton School" 10 times with while loop
 i=0
-while [ $i -lt 10 ]; do
-	echo "Holberton School"
-	let "i++"
+while [ $x -le 9 ]
+do
+        echo 'Holberton School'
+        ((i++))
 done
