@@ -1,1 +1,1 @@
-## https://imgur.com/36zkLTl
+## https://imgur.com/gallery/36zkLTl
