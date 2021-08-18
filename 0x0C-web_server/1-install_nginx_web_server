@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script that install Nginx on Server
+sudo apt-get update -y
+sudo apt-get install -y nginx
+sudo chown -R "$USER":"$USER" /var/www/html/index.nginx-debian.html
+sudo chmod -R 755 /var/www 
+sudo echo "Holberton School" > /var/www/html/index.nginx-debian.html
+sudo service nginx restart
