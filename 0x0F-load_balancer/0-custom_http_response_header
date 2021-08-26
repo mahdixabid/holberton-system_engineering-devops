@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# install nginx and change the default page.
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo service nginx start
+nl="\\\tadd_header X-Served-By \$hostname;"
+sed -i -e "/sendfile/i $nl" /etc/nginx/nginx.conf
+sudo service nginx restart
