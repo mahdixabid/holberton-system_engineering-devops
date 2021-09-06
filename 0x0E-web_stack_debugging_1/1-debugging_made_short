@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# debugging Nginx web server
+sudo ln -s -f /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
+sudo pkill -o nginx
