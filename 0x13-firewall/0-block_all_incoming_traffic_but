@@ -1,0 +1,6 @@
+sudo apt install ufw #install ufw on ubuntu
+sudo ufw default deny incoming #set the default UFW incoming policy to deny
+sudo ufw allow 80/tcp #allow tcp port 80(http)
+sudo ufw allow 443/tcp #allow tcp port 443 (HTTPS SSL)
+sudo ufw allow 22/tcp #allow tcp port 22 (SSH)
+sudo ufw enable #after adding the rules enable the firewall
