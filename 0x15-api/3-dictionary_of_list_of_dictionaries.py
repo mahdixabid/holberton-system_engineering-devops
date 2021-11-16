@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Exporting to json"""
+""" Exporting to json."""
 import json
 import requests
 
