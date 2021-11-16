@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that generates backup and create a compressed archive
+mysqldump -uroot -p"$1" --databases tyrell_corp > backup.sql
+tar -czf "$(date '+%d-%m-%Y').tar.gz" backup.sql
